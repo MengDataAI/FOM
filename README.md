@@ -87,7 +87,7 @@ Web UI / REST API / CLI  -->  Orchestrator & scheduler
 ### 1. Clone / enter the project
 
 ```bash
-cd /Users/prabathjayathissa/Documents/Claude/fom-mapper
+cd /fom-mapper
 ```
 
 ### 2. Start the stack
@@ -161,7 +161,7 @@ docker-compose down
 ### 1. Create a virtual environment
 
 ```bash
-cd /Users/prabathjayathissa/Documents/Claude/fom-mapper
+cd /fom-mapper
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -e ".[dev]"
